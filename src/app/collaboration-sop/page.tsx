@@ -83,7 +83,7 @@ const CollaborationSOP = () => {
 
                     <h1 className="text-2xl font-bold mb-2">Other useful git resource</h1>
                     <p>1. Add large size file using git lfs</p>
-                    <pre><code>git lfs track "*.yourfiletype"</code></pre>
+                    <pre><code>git lfs track &quot;*.yourfiletype&quot;</code></pre>
                     <p>2. Handy git addons on vscode:</p>
                     <ul style={{ paddingLeft: '30px' }}>
                         <li>i. GitLens</li>

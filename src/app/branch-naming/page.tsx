@@ -15,7 +15,7 @@ export default function GitBranchNaming() {
                     <br />
 
                     <p><strong>Name Style</strong>:</p>
-                    <p>hyphen-style/underscore_style, if no '-' or '_', use PascalCase/camelCase</p>
+                    <p>hyphen-style/underscore_style, if no &#39;-&#39; or &#39;_&#39;, use PascalCase/camelCase</p>
                     <br />
 
                     <p><strong>Branch Type</strong>:</p>
