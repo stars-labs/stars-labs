@@ -47,11 +47,25 @@ const CollaborationSOP = () => {
                     <p>
                         <strong>Important:</strong> Check these two links to understand rebase better &ensp;
                         <strong>
-                            <a href="https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase" target="_blank" rel="noopener noreferrer">git rebase</a>
+                            <a
+                                href="https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ color: 'blue', textDecoration: 'underline', fontWeight: 'bold' }}
+                            >
+                                git rebase
+                            </a>
                         </strong>
                         &ensp;&amp;&ensp;
                         <strong>
-                            <a href="https://www.atlassian.com/git/tutorials/merging-vs-rebasing" target="_blank" rel="noopener noreferrer">Merging vs. Rebasing</a>
+                            <a
+                                href="https://www.atlassian.com/git/tutorials/merging-vs-rebasing"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{ color: 'blue', textDecoration: 'underline', fontWeight: 'bold' }}
+                            >
+                                Merging vs. Rebasing
+                            </a>
                         </strong>
                     </p>
                     <br />

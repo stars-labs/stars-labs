@@ -32,9 +32,17 @@ export default function Home() {
           </Link>
           <br />
 
-          <Link href="/coding-convention">
+          <Link href="/first-setup">
             <h2 className="text-2xl font-bold mb-2">
               <span style={{ display: 'inline-block', width: '30px', textAlign: 'right' }}>3.&nbsp;</span>
+              Git First Setup
+            </h2>
+          </Link>
+          <br />
+
+          <Link href="/coding-convention">
+            <h2 className="text-2xl font-bold mb-2">
+              <span style={{ display: 'inline-block', width: '30px', textAlign: 'right' }}>4.&nbsp;</span>
               Coding Convention
             </h2>
           </Link>
