@@ -96,8 +96,8 @@ export default function GitFirstSetup() {
 
                     <h1 style={{ marginLeft: '20px' }}>7. Configure name and email</h1>
                     <p style={{ marginLeft: '40px' }}>
-                        <pre><code>git config --global user.name "your name"</code></pre>
-                        <pre><code>git config --global user.email "your email"</code></pre>
+                        <pre><code>git config --global user.name &quot;your name&quot;</code></pre>
+                        <pre><code>git config --global user.email &quot;your email&quot;</code></pre>
                     </p>
                     <br />
                 </section>
