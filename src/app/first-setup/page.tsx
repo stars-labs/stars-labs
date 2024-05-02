@@ -93,6 +93,13 @@ export default function GitFirstSetup() {
                         Or you can search in the Extensions tab in VS Code
                     </p>
                     <br />
+
+                    <h1 style={{ marginLeft: '20px' }}>7. Configure name and email</h1>
+                    <p style={{ marginLeft: '40px' }}>
+                        <pre><code>git config --global user.name "your name"</code></pre>
+                        <pre><code>git config --global user.email "your email"</code></pre>
+                    </p>
+                    <br />
                 </section>
             </main>
 
