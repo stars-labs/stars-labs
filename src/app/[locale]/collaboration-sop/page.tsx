@@ -5,6 +5,7 @@ import { useI18n, useScopedI18n, useChangeLocale, useCurrentLocale } from '../..
 
 const CollaborationSOP = () => {
     const t = useI18n();
+    const locale = useCurrentLocale();
     return (
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <main style={{ flex: '1 0 auto' }} className="p-4">
@@ -121,7 +122,7 @@ const CollaborationSOP = () => {
             </main>
 
             <footer style={{ flexShrink: '0' }}>
-                <Link href="/">
+                <Link href={`/${locale}`}>
                     <button style={{
                         padding: '10px 20px',
                         backgroundColor: '#0070f3',
@@ -133,7 +134,7 @@ const CollaborationSOP = () => {
                         Back to home
                     </button>
                 </Link>
-                <p>© 2024 Autolife</p>
+                <p>© 2024 Heco</p>
             </footer>
         </div>
     );

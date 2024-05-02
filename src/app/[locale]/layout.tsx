@@ -12,8 +12,8 @@ export function generateStaticParams() {
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Autolife Workflow",
-  description: "Github Workflow in Autolife",
+  title: "Heco Workflow",
+  description: "Github Workflow in Heco",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <ul>
             <li>
-              <Link href="/">
+              <Link href="/en">
                 <button style={{
                   padding: '5px 10px',
                   backgroundColor: '#0070f3',

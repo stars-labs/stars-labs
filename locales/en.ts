@@ -1,6 +1,4 @@
-console.log('Loaded EN');
-
 export default {
-    'Autolife Workflow': 'Autolife Workflow',
+    'Heco Workflow': 'Heco Workflow',
     'Introduction': 'Introduction',
 } as const;

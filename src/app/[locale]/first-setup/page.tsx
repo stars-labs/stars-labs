@@ -5,6 +5,7 @@ import { useI18n, useScopedI18n, useChangeLocale, useCurrentLocale } from '../..
 
 export default function GitFirstSetup() {
     const t = useI18n();
+    const locale = useCurrentLocale();
     return (
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <main style={{ flex: '1 0 auto' }} className="p-4">
@@ -107,7 +108,7 @@ export default function GitFirstSetup() {
             </main>
 
             <footer style={{ flexShrink: '0' }}>
-                <Link href="/">
+                <Link href={`/${locale}`}>
                     <button style={{
                         padding: '10px 20px',
                         backgroundColor: '#0070f3',
@@ -119,7 +120,7 @@ export default function GitFirstSetup() {
                         Back to home
                     </button>
                 </Link>
-                <p>© 2024 Autolife</p>
+                <p>© 2024 Heco</p>
             </footer>
         </div>
     );
