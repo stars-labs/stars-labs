@@ -1,6 +1,10 @@
+'use client';
+
 import Link from 'next/link';
+import { useI18n, useScopedI18n, useChangeLocale, useCurrentLocale } from '../../../../locales/client';
 
 export default function GitBranchNaming() {
+    const t = useI18n();
     return (
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <main style={{ flex: '1 0 auto' }} className="p-4">
